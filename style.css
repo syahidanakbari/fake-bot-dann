@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap");
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(0, 37, 73);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#pertanyaan {
+  color: white;
+  font-size: 20px;
+  margin-left: 20px;
+  font-family: "Martian Mono", monospace;
+}
+
+input {
+  border: none;
+  background-color: #eaeaea;
+  color: #00000091;
+  padding: 16px;
+  font-size: 24px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  color: #000000b5;
+  background-color: rgb(29, 198, 173);
+  font-size: 16px;
+  padding: 16px;
+  margin-left: 20px;
+  height: 61px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+button:hover {
+  cursor: pointer;
+  color: #eaeaea;
+  background-color: #9dba29;
+}
+
+/* Responsive PC */
+@media (min-width: 450px) {
+  #pertanyaan {
+    font-size: 32px;
+    margin-left: 20px;
+  }
+}
